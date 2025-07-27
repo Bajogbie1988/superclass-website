@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superclass Global Consult</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f8fc;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 960px;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #003366;
+        }
+        ul {
+            line-height: 1.8;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            background-color: #003366;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #002244;
+        }
+        .gallery {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            width: 30%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Superclass Global Consult</h1>
+        <p>Your Gateway to Educational Excellence!</p>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>About Us</h2>
+            <p>Superclass Global Consult offers comprehensive educational consultancy services for both local and international students. We are committed to helping students reach their academic goals.</p>
+        </div>
+
+        <div class="section">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Admission Guidance</li>
+                <li>Study Abroad Support</li>
+                <li>School and Program Selection</li>
+                <li>Visa Counseling</li>
+                <li>Career Guidance</li>
+                <li>Scholarship Assistance</li>
+                <li>Academic Mentoring</li>
+            </ul>
+        </div>
+
+        <div class="section contact-info">
+            <h2>Contact Us</h2>
+            <p><strong>Address:</strong> E2 Liberty Estate, Lugbe, FCT Abuja, Nigeria</p>
+            <p><strong>Email:</strong> bajogbie2006@yahoo.com</p>
+            <p><strong>Phone:</strong> 08102859422</p>
+        </div>
+
+        <div class="section">
+            <h2>Contact Form</h2>
+            <form action="https://formspree.io/f/your-form-id" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <div class="section">
+            <h2>Chat with Us</h2>
+            <p>Click the button below to chat with us on WhatsApp.</p>
+            <a href="https://wa.me/2348102859422" target="_blank">
+                <button>Chat on WhatsApp</button>
+            </a>
+        </div>
+
+        <div class="section">
+            <h2>Our Gallery</h2>
+            <div class="gallery">
+                <img src="images/photo1.jpg" alt="Gallery Image">
+                <img src="images/photo2.jpg" alt="Gallery Image">
+                <img src="images/photo3.jpg" alt="Gallery Image">
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Latest News</h2>
+            <h3>Preparing for Overseas Studies</h3>
+            <p>We help you with all the steps—admissions, visa, and settling in!</p>
+
+            <h3>Scholarship Alert!</h3>
+            <p>Several international scholarships are open now. Contact us to apply!</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Superclass Global Consult. All rights reserved.</p>
+    </footer>
+</body>
+</html>
